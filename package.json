@@ -1,0 +1,21 @@
+{
+  "name": "package_usage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild --bundle script.js --outfile=./public/bundle.js",
+    "watch": "esbuild --bundle --watch script.js --outfile=./public/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.3"
+  }
+}
